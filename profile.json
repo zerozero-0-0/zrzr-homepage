@@ -1,0 +1,16 @@
+{
+  "name": "山田 太郎",
+  "bio": "Web技術が好きなエンジニア。趣味でプログラミングや記事執筆をしています。",
+  "history": [
+    "1990年生まれ",
+    "2013年 大学卒業",
+    "2013年〜 IT企業勤務",
+    "2020年〜 フリーランス"
+  ],
+  "skills": ["HTML", "CSS", "JavaScript", "Python"],
+  "sns": [
+    { "name": "Twitter", "url": "https://twitter.com/yourname" },
+    { "name": "GitHub", "url": "https://github.com/yourname" },
+    { "name": "Qiita", "url": "https://qiita.com/yourname" }
+  ]
+}
