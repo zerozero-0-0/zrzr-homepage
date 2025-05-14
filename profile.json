@@ -1,16 +1,21 @@
 {
-  "name": "山田 太郎",
-  "bio": "Web技術が好きなエンジニア。趣味でプログラミングや記事執筆をしています。",
+  "name": "Zrzr | ぜろぜろ | zerozero-0-0",
+  "bio": "情報工学科に在籍している大学生です。Web の開発, 競技プログラミング, 機械学習, セキュリティなどの学習に取り組んでいます。共同開発に取り組みながら知見を広げていきたいです。",
   "history": [
-    "1990年生まれ",
-    "2013年 大学卒業",
-    "2013年〜 IT企業勤務",
-    "2020年〜 フリーランス"
+    "2006/01 千葉県に生まれる",
+    "2021/04 県立柏高校に入学",
+    "2024/03 同高校卒業",
+    "2024/04 埼玉大学工学部情報工学科入学"
   ],
-  "skills": ["HTML", "CSS", "JavaScript", "Python"],
+  "skills": [
+    "HTML, CSS, JavaScript ... Web開発に使用。前サイトはこれらで作りました",
+    "TypeScript ... 当サイトはこれで作成しています",
+    "C++ ... 競技プログラミングに使用",
+    "Python ... 機械学習，データサイエンスの分野で使用"
+
+    ],
   "sns": [
-    { "name": "Twitter", "url": "https://twitter.com/yourname" },
-    { "name": "GitHub", "url": "https://github.com/yourname" },
-    { "name": "Qiita", "url": "https://qiita.com/yourname" }
+    { "name": "Twitter", "url": "http://x.com/AaWlEw3pl899167" },
+    { "name": "GitHub", "url": "https://github.com/zerozero-0-0" }
   ]
 }

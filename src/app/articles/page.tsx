@@ -3,8 +3,8 @@ import styles from "./articles.module.css";
 import { getAllArticles } from "@/lib/articles";
 
 // 技術記事一覧ページ
-export default function ArticlesPage() {
-  const articles = getAllArticles(); // 記事一覧を取得
+export default async function ArticlesPage() {
+  const articles = await getAllArticles(); // 記事一覧を取得（awaitを追加）
   return (
     <main className={styles.container}>
       {/* ホームへの戻るリンク */}
