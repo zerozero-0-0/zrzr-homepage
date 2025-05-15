@@ -33,7 +33,7 @@ export default function Header() {
             textDecoration: "none",
           }}
         >
-          My Homepage
+          Zrzr's Portfolio
         </Link>
         {/* ナビゲーションリンク */}
         <div style={{ display: "flex", gap: 24 }}>

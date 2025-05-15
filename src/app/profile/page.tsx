@@ -31,11 +31,18 @@ export default async function ProfilePage() {
       <section className={styles.sectionSkills}>
         <h2 className={styles.sectionTitle}>スキル</h2>
         <ul className={styles.list}>
-          {profile.skills.map((s: string, i: number) => (
-            <li key={i} className={styles.listItem}>
-              {s}
-            </li>
-          ))}
+          {profile.skills.map((s: string, i: number) => {
+            // 「 ... 」で分割
+            const [lang, desc] = s.split(/\s*\.\.\.\s*/, 2);
+            return (
+              <li key={i} className={styles.listItem}>
+                <span className={styles.skillLang}>{lang}</span>
+                <span className={styles.skillDesc}>
+                  {desc ? `：${desc}` : ""}
+                </span>
+              </li>
+            );
+          })}
         </ul>
       </section>
       {/* SNSリンク集 */}

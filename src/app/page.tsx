@@ -27,9 +27,9 @@ export default function Home() {
         <Link href="/articles" className="buttonLink secondary">技術記事一覧</Link>
       </div>
       {/* サイトの技術スタック説明 */}
-      <div style={{ color: "#888", fontSize: "0.98rem", marginTop: 32 }}>
-        <span>このサイトはNext.js＋Markdownで作成されています。</span>
-      </div>
+      {/* <div style={{ color: "#888", fontSize: "0.98rem", marginTop: 32 }}>
+        <span>このサイトはNext.js＋Markdownで作成されています。</span> */}
+      {/* </div> */}
     </main>
   );
 }

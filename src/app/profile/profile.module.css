@@ -72,3 +72,12 @@
   color: #3949ab;
   text-decoration: underline;
 }
+.skillLang {
+  font-weight: 700;
+  color: #3949ab;
+  margin-right: 6px;
+}
+.skillDesc {
+  color: #333;
+  font-size: 0.98em;
+}

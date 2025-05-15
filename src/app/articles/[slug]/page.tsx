@@ -4,7 +4,8 @@ import Link from "next/link";
 
 // 型定義を完全に省略（Next.js 15.xの型エラー回避）
 export default async function Page(props: any) {
-  const article = await getArticleBySlug(props.params.slug);
+  const { slug } = await props.params;
+  const article = await getArticleBySlug(slug);
   // Markdown本文の先頭の#見出しを除去
   const contentWithoutTitle = article.content.replace(/^#\s+.+\n+/, "");
   return (
