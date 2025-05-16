@@ -16,6 +16,9 @@
     ],
   "sns": [
     { "name": "Twitter", "url": "http://x.com/AaWlEw3pl899167" },
-    { "name": "GitHub", "url": "https://github.com/zerozero-0-0" }
+    { "name": "GitHub", "url": "https://github.com/zerozero-0-0" },
+    {  "name": "AtCoder", "url": "https://atcoder.jp/users/zerozero_00"},
+    { "name": "picoCTF", "url": "https://play.picoctf.org/users/zrzr" },
+    { "name": "kaggle", "url": "https://www.kaggle.com/zrzr00" }
   ]
 }
